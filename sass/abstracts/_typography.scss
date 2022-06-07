@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+$semibold: 600;
+$medium: 500;
+$regular: 400;
+
+html {
+	font-size: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+a,
+small,
+span,
+ul,
+li {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-size: 7.2rem;
+	font-weight: $semibold;
+	line-height: 120%;
+}
+
+h2 {
+	font-size: 4.8rem;
+	font-weight: $semibold;
+	line-height: auto;
+}
+
+h3 {
+	font-size: 4.2rem;
+	font-weight: $semibold;
+	line-height: 5.4rem;
+}
+
+h4 {
+	font-size: 3.4rem;
+	font-weight: $semibold;
+	line-height: 3.71rem;
+	letter-spacing: 0.025rem;
+}
+
+h5 {
+	font-size: 1.8rem;
+	font-weight: $medium;
+}
+
+h6 {
+	font-size: 1.6rem;
+	font-weight: $medium;
+}
+
+p,
+a,
+span {
+	font-size: 1.6rem;
+	font-weight: $regular;
+	text-decoration: none;
+	line-height: 2.7rem;
+	letter-spacing: 0.05rem;
+}
+
+.text__body {
+	font-size: 1.6rem;
+	font-weight: $regular;
+	line-height: 2.7rem;
+	letter-spacing: 0.05rem;
+}
+
+.text__body-sm {
+	font-size: 1.4rem;
+	font-weight: $regular;
+	line-height: 2.36rem;
+	letter-spacing: 0.025rem;
+}
+
+.text__sub {
+	font-size: 2.4rem;
+	font-weight: $medium;
+	line-height: 120%;
+	letter-spacing: 0%;
+}
+
+.text__sub-sm {
+	font-size: 1.8rem;
+	font-weight: $medium;
+	line-height: 100%;
+	letter-spacing: 0px;
+}
+
+button,
+.text__button {
+	font-size: 1.4rem;
+	font-weight: $medium;
+	line-height: 120%;
+	letter-spacing: 0%;
+}
+
+.text__link {
+	font-size: 1.3rem;
+	font-weight: $regular;
+	line-height: 1.37rem;
+	letter-spacing: 0%;
+}
+
+.text__caption {
+	font-size: 1.2rem;
+	font-weight: $regular;
+	line-height: auto;
+	letter-spacing: 0.4px;
+}
+
+.text__overline {
+	font-size: 1rem;
+	font-weight: $regular;
+	line-height: auto;
+	letter-spacing: 1.5px;
+}
